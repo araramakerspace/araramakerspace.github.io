@@ -658,7 +658,7 @@ a.join-wthree {
     display: inline-block;
     letter-spacing: 1px;
     font-size: 17px;
-    background: #8060ec;
+    background: #2873de;
     padding: 12px 30px;
     border-radius: 25px;
     text-decoration: none;
@@ -877,7 +877,8 @@ a.blog-more-agile {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    border: 1px solid #2873de;
+    background: #2873de;
+    border: 1px solid #fff;
     text-transform: capitalize;
     margin-top: 30px;
     font-size: 16px;
@@ -891,7 +892,8 @@ a.blog-more-agile {
 }
 
 a.blog-more-agile:hover {
-	color: #2873de;
+    color: #2873de;
+    background-color: #fff;
 	border-color: #fff;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -1124,7 +1126,7 @@ p.para-agileits-w3layouts:nth-child(3) {
     padding: 40px;
     width: 95%;
     margin: 0 auto;
-    background: #8060ec;
+    background: #2873de;
     text-align: center;
 }
 .form-bg-w3ls h3 {
