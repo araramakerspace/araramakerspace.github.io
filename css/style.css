@@ -76,11 +76,20 @@ label {
 }
 
 
+iframe{
+    width: 130% !important;
+    height: 300% !important;
+ }
+
 /*-- header-top --*/
 
 .header-top-agileits {
 	padding: 1em 0;
 	
+}
+
+.form-container {
+	background-color: #fff;
 }
 
 .agile_forms {
@@ -502,16 +511,17 @@ nav.navbar.navbar-default {
 	text-align: center;
 	margin: 0;
 }
+
 nav.navbar.navbar-default ul li {
 	display: inline-block; 
-	line-height: 60px;
+	line-height: 50px;
 	text-align: center;
 	width:11%;
 }
 nav.navbar.navbar-default ul li a {
     text-decoration: none;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 	font-size: 16.8px;
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;

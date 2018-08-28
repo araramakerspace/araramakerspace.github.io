@@ -14,6 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="ELetronics, Laboratory, Eletrônica, Makerspace, Maker, DIY, Araranguá" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -22,6 +23,10 @@
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
+		$('iframe').load( function() {
+			$('iframe').contents().find("head")
+			.append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
+		});
 	</script>
 	<!-- //Meta Tags -->
 	<!-- Style-sheets -->
@@ -40,9 +45,6 @@
 	<!-- //Web-fonts -->
 
 </head>
-
-
-
 
 <body>
 	<div class="nav-links">
@@ -66,13 +68,11 @@
 			</div>
 		</nav>
 	</div>
-
-
-<div class="center">
-    <b>Curso de Data Science em python</b>
-    <br/>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-qPyv5hBrFEJYiQQjrh3DJu87iz5m8wdj1jmt4QI-4bP3og/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</div>
-
+	
+	<div class="center">
+		    <b>Curso de Data Science em python</b>
+		    <br/>
+		    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-qPyv5hBrFEJYiQQjrh3DJu87iz5m8wdj1jmt4QI-4bP3og/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	</div>
 </body>
 </html>
